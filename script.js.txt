@@ -1,0 +1,74 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SET C - JavaScript Exercises</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SET C - JavaScript Exercises</h1>
+
+        <!-- 1. Reverse a string -->
+        <div class="task">
+            <h3>1. Reverse a string</h3>
+            <input type="text" id="revInput" placeholder="Enter string">
+            <button onclick="reverseString()">Reverse</button>
+            <div class="output" id="revOutput"></div>
+        </div>
+
+        <!-- 2. Extract 3rd and 4th characters -->
+        <div class="task">
+            <h3>2. Extract 3rd and 4th characters</h3>
+            <input type="text" id="extInput" placeholder="Enter string (min 4 chars)">
+            <button onclick="extract34()">Extract</button>
+            <div class="output" id="extOutput"></div>
+        </div>
+
+        <!-- 3. Toggle case -->
+        <div class="task">
+            <h3>3. Toggle UPPER ↔ lower case</h3>
+            <input type="text" id="toggleInput" placeholder="Enter text">
+            <button onclick="toggleCase()">Toggle Case</button>
+            <div class="output" id="toggleOutput"></div>
+        </div>
+
+        <!-- 4. Find substring location -->
+        <div class="task">
+            <h3>4. Find substring location</h3>
+            <input type="text" id="subMain" placeholder="Main string">
+            <input type="text" id="subSearch" placeholder="Substring to find">
+            <button onclick="findSubstring()">Find</button>
+            <div class="output" id="subOutput"></div>
+        </div>
+
+        <!-- 5. Count special characters -->
+        <div class="task">
+            <h3>5. Count special characters</h3>
+            <input type="text" id="specialInput" placeholder="Enter string">
+            <button onclick="countSpecial()">Count</button>
+            <div class="output" id="specialOutput"></div>
+        </div>
+
+        <!-- 6. Find repeated characters -->
+        <div class="task">
+            <h3>6. Find repeated characters in a word</h3>
+            <input type="text" id="repeatInput" placeholder="Enter word">
+            <button onclick="findRepeated()">Find Repeated</button>
+            <div class="output" id="repeatOutput"></div>
+        </div>
+
+        <!-- 7 & 8. Array: Create, display, last element (alert) -->
+        <div class="task">
+            <h3>7-8. Create array & display / Last element (alert)</h3>
+            <input type="text" id="arrayInput" placeholder="Numbers: 10,20,30">
+            <button onclick="createAndShowArray()">Create & Display</button>
+            <button onclick="showLastElement()">Show Last (Alert)</button>
+            <div class="output" id="arrayOutput"></div>
+        </div>
+
+        <!-- 9. 10th character (alert) -->
+        <div class="task">
+            <h3>9. 10th character from string (alert)</h3>
+            <input type="text
